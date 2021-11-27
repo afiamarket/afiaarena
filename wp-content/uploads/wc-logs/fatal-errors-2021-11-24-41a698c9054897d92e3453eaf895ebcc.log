@@ -1,0 +1,18 @@
+2021-11-24T12:57:13+00:00 CRITICAL Uncaught Error: Class 'WC_Product_Attribute' not found in /home/pallya5/afiaplace.com/wp-content/plugins/woocommerce/includes/data-stores/class-wc-product-data-store-cpt.php:471
+Stack trace:
+#0 /home/pallya5/afiaplace.com/wp-content/plugins/woocommerce/includes/data-stores/class-wc-product-data-store-cpt.php(186): WC_Product_Data_Store_CPT->read_attributes(Object(WC_Product_Simple))
+#1 /home/pallya5/afiaplace.com/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Product_Data_Store_CPT->read(Object(WC_Product_Simple))
+#2 /home/pallya5/afiaplace.com/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(137): WC_Data_Store->read(Object(WC_Product_Simple))
+#3 /home/pallya5/afiaplace.com/wp-content/plugins/woocommerce/includes/class-wc-product-simple.php(24): WC_Product->__construct(280)
+#4 /home/pallya5/afiaplace.com/wp-content/plugins/woocommerce/includes/class-wc-product-factory.php(46): WC_Product_Simple->__construct(280, Array)
+#5 /home/pallya5/afiaplace.com/wp-conte in /home/pallya5/afiaplace.com/wp-content/plugins/woocommerce/includes/data-stores/class-wc-product-data-store-cpt.php on line 471
+
+2021-11-24T12:57:58+00:00 CRITICAL Uncaught Error: Class 'WC_Product_Attribute' not found in /home/pallya5/afiaplace.com/wp-content/plugins/woocommerce/includes/data-stores/class-wc-product-data-store-cpt.php:471
+Stack trace:
+#0 /home/pallya5/afiaplace.com/wp-content/plugins/woocommerce/includes/data-stores/class-wc-product-data-store-cpt.php(186): WC_Product_Data_Store_CPT->read_attributes(Object(WC_Product_Simple))
+#1 /home/pallya5/afiaplace.com/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Product_Data_Store_CPT->read(Object(WC_Product_Simple))
+#2 /home/pallya5/afiaplace.com/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(137): WC_Data_Store->read(Object(WC_Product_Simple))
+#3 /home/pallya5/afiaplace.com/wp-content/plugins/woocommerce/includes/class-wc-product-simple.php(24): WC_Product->__construct(4524)
+#4 /home/pallya5/afiaplace.com/wp-content/plugins/woocommerce/includes/class-wc-product-factory.php(46): WC_Product_Simple->__construct(4524, Array)
+#5 /home/pallya5/afiaplace.com/wp-con in /home/pallya5/afiaplace.com/wp-content/plugins/woocommerce/includes/data-stores/class-wc-product-data-store-cpt.php on line 471
+
